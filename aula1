@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Sistema Web</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        
+        <img src="imagens/images.jpg" alt="personagem" title="Totoro"/>
+        
+        <div>Menu</div>
+        <a href="formulario.html">Formulário</a>
+    </body>
+</html>
+
+
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Minha aula de formulário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="padding-bottom:500px ">  <!--padding-bottom é o espaçamento de baixo-->
+        
+        <a href="index.html">Voltar</a> <!--href cria uma conexão com outro site e target faz abrir esse site em uma outra pagina -->
+        
+        <h1>Meu Formulário</h1>
+        <hr>                            <!--cria uma linha -->
+        <label>Nome:</label><br>        <!--label cria uam caixa de formulário -->
+        <input type="text"/><br><br>    <!--input define o tipo como texto ou senha -->
+        <label>Senha:</label><br>
+        <input type="password"/><br><br>
+
+        <h3>Meu paragrafo</h3>
+
+        <p>O conceito de texto pode variar a depender da perspectiva teórica adotada 
+            para estudá-lo. A palavra texto, ao longo da história, foi ganhando diferentes
+            sentidos, de modo que novas construções foram compreendidas como tal.
+            De acordo com o percusso de investigações sobre o texto, nas mais diversas correntes 
+            teóricas que se debruçam sobre esse objeto, o conceito foi se modificando e se 
+            ampliando. Hoje o texto não é considerado uma estrutura pronta, com unidade de sentido
+            completa, pois consideram-se também os processos de planejamento,construção e recepção do texto.
+        </p>
+        <h3>Cursos Disponiveis</h3>
+        <!--ul(bolinha) e li criam uma lista  -->
+        <ul type="square">           <!--square deixa a bolinha de lista quadrado-->
+            <li>Programação Web</li>
+            <li>Java</li>
+            <li>HTML + CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <h3>Assuntos para estudar</h3>
+        <!--ol(numeracao sequenciada) e li criam uma lista  -->
+        <ol type="A">      <!--type i deixa a sequencia em numeros romanos e I deixa em maiusculo OS NUMEROS ROMANOS E A deixa em sequencia de abc-->
+            <li>Padrão de Projeto</li>
+            <li>JSF</li>
+            <li>Conexão com banco de dados</li>
+            <li>Hibernate</li>
+            <li>JDBC</li>
+        </ol>
+
+        <dl>
+            <dt>Esse é o titulo do texto abaixo </dt> <!--dt é o titulo -->
+
+            <dd> <!--dd é o texto  -->
+                O conceito de texto pode variar a depender da perspectiva teórica adotada 
+                para estudá-lo. A palavra texto, ao longo da história, foi ganhando diferentes
+                sentidos, de modo que novas construções foram compreendidas como tal.
+                De acordo com o percusso de investigações sobre o texto, nas mais diversas correntes 
+                teóricas que se debruçam sobre esse objeto, o conceito foi se modificando e se 
+                ampliando. Hoje o texto não é considerado uma estrutura pronta, com unidade de sentido
+                completa, pois consideram-se também os processos de planejamento,construção e recepção do texto.
+            </dd>
+        </dl>
+        
+        <h3>Observação</h3>
+        <!-- cols é tamanho do espaço e rows é a linha -->
+        <textarea cols="60" rows="5"></textarea>
+        
+        <input type="hidden"/>
+        <h3>Sexo</h3>
+        <input type="radio" value="M" name="sexo"/>Maculino      <!-- cria uma bolinha para a seleçãode do tópico sexo  -->
+        <input type="radio" value="F" name="sexo"/>Feminino 
+        <h3>Escolha seu(s) curso(s)</h3>
+        <input type="checkbox" name="op1" value="1"/> Sistemas de informação
+        <input type="checkbox" name="op2" value="2"/> ADS
+        <input type="checkbox" name="op3" value="3"/> Engenharia da Computação
+        <h3>Selecione umas das opções</h3>
+        <select>
+            <option>Escolha: </option>
+            <option value="M">Matemática</option>
+            <option value="P">Portugues</option>
+            <option value="H">História</option>
+            <option value="G">Geografia</option>
+            <option value="C">Ciência</option>
+        </select>
+        <hr>
+        <input type="button" value="Enviar Dados"/>
+        <input type="submit" value="Salvar Dados"/>
+        <input type="reset" value="Limpar Dados"/>
+       
+
+
+    </body>
+</html>
